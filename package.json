@@ -1,0 +1,19 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "serve",
+    "dev": "webpack-dev-server --inline"
+  },
+  "dependencies": {
+    "serve": "^2.4.3"
+  }
+}
